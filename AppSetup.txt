@@ -1,0 +1,46 @@
+
+#### App Setup
+
+1. Create a GitHub repo called `burger` and clone it to your computer. COMPLETED
+
+2. Make a package.json file by running `npm init` from the command line. COMPLETED
+
+3. Install the Express npm package: `npm install express`. COMPLETED
+
+4. Create a server.js file. COMPLETED
+
+5. Install the Handlebars npm package: `npm install express-handlebars`. COMPLETED
+
+6. Install MySQL npm package: `npm install mysql`. COMPLETED
+
+7. Require the following npm packages inside of the server.js file: COMPLETED
+   * express
+
+#### DB Setup
+
+1. Inside your `burger` directory, create a folder named `db`. COMPLETED
+
+2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following: COMPLETED
+
+   * Create the `burgers_db`.COMPLETED
+   * Switch to or use the `burgers_db`.COMPLETED
+   * Create a `burgers` table with these fields:COMPLETED
+     * **id**: an auto incrementing int that serves as the primary key.COMPLETED
+     * **burger_name**: a string.COMPLETED
+     * **devoured**: a boolean. COMPLETED
+
+3. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries. COMPLETED
+
+4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line COMPLETED
+
+5. Now you're going to run these SQL files. COMPLETED
+
+   * Make sure you're in the `db` folder of your app. COMPLETED
+
+   * Start MySQL command line tool and login: `mysql -u root -p`.  COMPLETED
+
+   * With the `mysql>` command line tool running, enter the command `source schema.sql`. This will run your schema file and all of the queries in it -- in other words, you'll be creating your database. COMPLETED
+
+   * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`. COMPLETED
+
+   * Close out of the MySQL command line tool: `exit`. COMPLETED

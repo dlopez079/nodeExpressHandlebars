@@ -1,0 +1,25 @@
+{
+  "name": "nodeexpresshandlebars",
+  "version": "1.0.0",
+  "description": "Eat a Burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlopez079/nodeExpressHandlebars.git"
+  },
+  "author": "David Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlopez079/nodeExpressHandlebars/issues"
+  },
+  "homepage": "https://github.com/dlopez079/nodeExpressHandlebars#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.17.1"
+  }
+}
