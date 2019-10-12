@@ -1,0 +1,12 @@
+#### Controller setup
+
+1. Inside your `burger` directory, create a folder named `controllers`. COMPLETED
+
+2. In `controllers`, create the `burgers_controller.js` file. COMPLETED
+
+3. Inside the `burgers_controller.js` file, import the following: COMPLETED
+
+   * Express COMPLETED
+   * `burger.js` COMPLETED
+
+4. Create the `router` for the app, and export the `router` at the end of your file. COMPLETED

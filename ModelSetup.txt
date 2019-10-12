@@ -1,0 +1,11 @@
+#### Model setup
+
+* Inside your `burger` directory, create a folder named `models`. COMPLETED
+
+  * In `models`, make a `burger.js` file. COMPLETED
+
+    * Inside `burger.js`, import `orm.js` into `burger.js` COMPLETED
+
+    * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM. COMPLETED
+
+    * Export at the end of the `burger.js` file. COMPLETED
