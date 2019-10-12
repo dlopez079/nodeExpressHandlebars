@@ -1,0 +1,15 @@
+#### View setup
+
+1. Inside your `burger` directory, create a folder named `views`. COMPLETED
+
+   * Create the `index.handlebars` file inside `views` directory. COMPLETED
+
+   * Create the `layouts` directory inside `views` directory. COMPLETED
+
+     * Create the `main.handlebars` file inside `layouts` directory. COMPLETED
+
+     * Setup the `main.handlebars` file so it's able to be used by Handlebars. COMPLETED
+
+     * Setup the `index.handlebars` to have the template that Handlebars can render onto. COMPLETED
+
+     * Create a button in `index.handlebars` that will submit the user input into the database. COMPLETED
