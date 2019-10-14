@@ -1,32 +1,51 @@
-<h1>Burgers!</h1>
+<div class="container">
 
-<h2>Burgers that are not Devoured!</h2>
+  <h1>Burgers!</h1>
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
+
+{{!-- Column 1 will hold the burers that are not devoured************************* --}}
+  <div class="col1">
+    <h2>Burgers that are not Devoured!</h2>
+    <ul>
+      {{#each burgers}}
+      {{#unless devoured}}
       {{> burgers/burger-block devoured=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Burgers that are Devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{> burgers/burger-block devoured=false}}
-    {{/if}}
-  {{/each}}
-</ul>
-
-<h2>Add a Burger</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="ham">Burger Name:</label>
-    <input type="text" id="ham" name="name">
+      {{/unless}}
+      {{/each}}
+    </ul>
   </div>
+
+  {{!-- Column 2 will old the for to create the burger**************************** --}}
+  <div class="col2">
+    <h2>Add a Burger</h2>
+
+    <form class="create-form">
+      <div class="form-group">
+        <label for="ham">Burger Name:</label>
+        <input type="text" id="ham" name="name">
+      </div>
+rs
+
+      <button type="submit" name="devoured" value="0">Add Burger</button>
+    </form>
+  </div>
+
+
+  {{!-- Column 3 will hold the Devoured burgers **********************************--}}
+  <div class="col3">
+    <h2>Burgers that are Devoured!</h2>
+    <ul>
+      {{#each burgers}}
+      {{#if devoured}}
+      {{> burgers/burger-block devoured=false}}
+      {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+
+
+
+
 
   {{!-- <div class="form-group">
     <label for="devoured">devoured?</label><br>
@@ -34,5 +53,6 @@
     <input type="radio" name="devoured" value="0"> Devoured
   </div> --}}
 
-  <button type="submit" name="devoured" value="1">Add Burger</button>
-</form>
+
+
+</div>
