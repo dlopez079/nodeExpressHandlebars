@@ -1,30 +1,33 @@
 <div class="container">
+  <div class="header">
+    <h1>Burgers!</h1>
+  </div>
 
-  <h1>Burgers!</h1>
-
-
-{{!-- Column 1 will hold the burers that are not devoured************************* --}}
+  <div class="image">
+    <img src="assets/img/Beef-Hamburgers_7-2.jpg" alt="hamburger" height="300   width="400">
+  </div>
+  
+  {{!-- Column 1 will hold the burers that are not devoured************************* --}}
   <div class="col1">
-    <h2>Burgers that are not Devoured!</h2>
-    <ul>
+    <h3>Burgers that are not Devoured!</h3>
+    <p>
       {{#each burgers}}
       {{#unless devoured}}
       {{> burgers/burger-block devoured=true}}
       {{/unless}}
       {{/each}}
-    </ul>
+    </p>
   </div>
 
   {{!-- Column 2 will old the for to create the burger**************************** --}}
   <div class="col2">
-    <h2>Add a Burger</h2>
-
+    <h3>Add a Burger</h3>
     <form class="create-form">
       <div class="form-group">
         <label for="ham">Burger Name:</label>
         <input type="text" id="ham" name="name">
       </div>
-rs
+
 
       <button type="submit" name="devoured" value="0">Add Burger</button>
     </form>
@@ -33,14 +36,14 @@ rs
 
   {{!-- Column 3 will hold the Devoured burgers **********************************--}}
   <div class="col3">
-    <h2>Burgers that are Devoured!</h2>
-    <ul>
+    <h3>Burgers that are Devoured!</h3>
+    <p>
       {{#each burgers}}
       {{#if devoured}}
       {{> burgers/burger-block devoured=false}}
       {{/if}}
       {{/each}}
-    </ul>
+    </p>
   </div>
 
 
