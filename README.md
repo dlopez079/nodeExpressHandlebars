@@ -14,8 +14,6 @@ The objective of this application is to gather a users input (burger) and save i
 
 This web based application will feature a simple style layout that will be dynamically updated on the back end. It will consiss of a burger images, 3 colomns, data information and dynamic buttons for each listing.  The app contains a picture of a burger.
 
-![Image of Burger](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiZoMCuu53lAhUBqlkKHaVsBtAQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.mnn.com%2Ffood%2Fhealthy-eating%2Fblogs%2Fsonic-tests-blended-burger-mushrooms&psig=AOvVaw3KEIQBhzNrr8wXjCPxvhQH&ust=1571201366571399)
-
 The application is listed in github and Heroku.  Below are the links to both. 
 
 Github: https://dlopez079.github.io/nodeExpressHandlebars/
