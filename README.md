@@ -17,3 +17,8 @@ The application is listed in github and Heroku.  Below are the links to both.
 Github: https://dlopez079.github.io/nodeExpressHandlebars/
 
 Heroku: https://sheltered-sierra-38624.herokuapp.com/
+
+
+# Instructions
+
+When the game starts, you will be greeted with 3 boxes.  Each box contains a list of burgers.  The left side box will contained the burgers that are 'not devoured'.  The right side will include the burgers that are not devoired.  Each burger will come with a devoured/notDevoured button and a delete button.   Interaction with the buttons will correspond with the queries established to MySQL. 
