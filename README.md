@@ -1,7 +1,5 @@
 # nodeExpressHandlebars
 
-# node_word_game
-
 #### Welcome to the Burger Application
 
 ## Objective
